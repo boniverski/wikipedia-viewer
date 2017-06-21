@@ -4,6 +4,7 @@
 }
 
 body {
+  background: #FF7665;
   background-image: url("../image/science.png");
   background-repeat: repeat;
 }
