@@ -38,6 +38,10 @@ p {
   background: #7BC8A4;
 }
 
+.btn:nth-of-type(2):hover {
+  background: #e6e6e6;
+}
+
 .btn, .btn:hover {
   border-style: none;
 }
