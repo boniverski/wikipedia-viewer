@@ -1,0 +1,19 @@
+h1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.search-box {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background: darkgray;
+  position: absolute;
+  text-align: center;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
