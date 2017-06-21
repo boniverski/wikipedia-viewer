@@ -1,2 +1,2 @@
-# wikipidia-viewr
-[Wikipidia Viewer](https://boniverski.github.io/wikipidia-viewer/) - freeCodeCamp Intermediate Project
+# wikipedia-viewr
+[Wikipedia Viewer](https://boniverski.github.io/wikipedia-viewer/) - freeCodeCamp Intermediate Project
