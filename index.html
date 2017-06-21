@@ -3,7 +3,9 @@
   <head>
     <meta lang="en">
     <meta charset="utf-8">
-    <title>Wikipidia Viewer</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Wikipedia Viewer</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -11,21 +13,30 @@
 
     <div class="container">
       <div class="row">
-        <h1 class="col-lg-12 col-sm-12 text-center">Wikipidia Viewer</h1>
+        <h1 class="col-lg-12 col-sm-12 text-center">Wikipedia Viewer</h1>
       </div>
       <div class="search-box text-center">
         <div>
           <p>I want to know more about</p>
         </div>
-        <div class="input-group">
+        <div class="form-group search-form">
+          <input type="text" class="form-control" autofocus>
+          <div class="buttons">
+            <button type="button" class="btn btn-default">Search</button>
+            <button type="button" class="btn btn-default">Random Article</button>
+          </div>
+        </div>
+        <!-- <div class="input-group">
           <input type="text" class="form-control" autofocus>
           <span class="input-group-btn">
             <button class="btn btn-default" type="button">Search</button>
           </span>
-        </div><!-- /input-group -->
+        </div><! /input-group -->
       </div>
     </div>
-    <footer>Coded by Boško Rabrenović</footer>
+    <footer>
+      Coded by Boško Rabrenović
+    </footer>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
