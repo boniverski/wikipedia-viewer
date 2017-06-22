@@ -11,7 +11,9 @@ body {
 }
 
 .container {
-  height: 600px;
+  height: 550px;
+  margin-bottom: 50px;
+  z-index: 1;
 }
 
 h1 {
@@ -117,11 +119,14 @@ input[class="form-control"]:focus {
 
 footer {
   background: #40415A;
-  text-align: center;
-  height: 50px;
-  width: 100%;
   bottom: 0;
+  box-sizing: content-box;
+  height: 30px;
   padding-top: 1em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
 }
 
 /* SEARCH BOX */
