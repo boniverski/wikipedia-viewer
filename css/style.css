@@ -10,6 +10,10 @@ body {
   background-position: center;
 }
 
+.container {
+  height: 600px;
+}
+
 h1 {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -111,10 +115,8 @@ input[class="form-control"]:focus {
 
 /*********************/
 
-
 footer {
   background: #40415A;
-  position: absolute;
   text-align: center;
   height: 50px;
   width: 100%;
