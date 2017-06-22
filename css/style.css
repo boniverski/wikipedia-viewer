@@ -7,7 +7,6 @@ body {
   background: #FF7665;
   background-image: url("../image/science.png");
   background-repeat: repeat;
-  background-position: center;
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
 h1 {
   margin-top: 10%;
   margin-bottom: 10%;
+  font-weight: bold;
 }
 
 p {
@@ -28,6 +28,7 @@ p {
 .search-box {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   max-width: 500px;
 }
 
@@ -115,19 +116,63 @@ input[class="form-control"]:focus {
   border-style: none;
 }
 
+ol {
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+ol li {
+  display: block;
+  background: #FDFDFD;
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 1em;
+  /*border-bottom: 5px solid transparent;*/
+  box-shadow:
+   1px 1px 0 rgb(51, 166, 205),
+   2px 2px 0 rgb(22, 160, 156),
+   3px 3px 0 rgb(22, 160, 133),
+   4px 4px 0 rgb(22, 160, 133),
+   5px 5px 0 rgb(22, 160, 133),
+   6px 6px 0 rgb(22, 160, 133),
+   7px 7px 0 rgb(22, 160, 133);
+}
+
+/*ul li:hover {
+  border-bottom: 5px solid #e6e6e6;
+}*/
+
+ol li a {
+  display: inline-block;
+  background: #ffdb30;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ol li p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.no-result {
+  margin: 5em auto;
+  max-width: 200px;
+  text-align: center;
+  align-items: center;
+}
 /*********************/
 
-footer {
+/*footer {
   background: #40415A;
   bottom: 0;
-  box-sizing: content-box;
   height: 30px;
   padding-top: 1em;
-  position: absolute;
+  position: relative;
   text-align: center;
   width: 100%;
   z-index: -1;
-}
+}*/
 
 /* SEARCH BOX */
 
