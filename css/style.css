@@ -7,6 +7,7 @@ body {
   background: #FF7665;
   background-image: url("../image/science.png");
   background-repeat: repeat;
+  background-position: center;
 }
 
 h1 {
@@ -19,9 +20,71 @@ p {
 }
 
 .search-box {
-  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 500px;
+}
+
+input[class="form-control"] {
+  background: #FDFDFD;
+  border: 0.1555em solid rgb(26, 188, 156);
+  border-radius: 0;
+  -webkit-box-shadow:
+    1px 1px 0 rgb(22, 160, 133),
+    2px 2px 0 rgb(22, 160, 133),
+    3px 3px 0 rgb(22, 160, 133),
+    4px 4px 0 rgb(22, 160, 133),
+    5px 5px 0 rgb(22, 160, 133),
+    6px 6px 0 rgb(22, 160, 133),
+    7px 7px 0 rgb(22, 160, 133);
+  -moz-box-shadow:
+    1px 1px 0 rgb(22, 160, 133),
+    2px 2px 0 rgb(22, 160, 133),
+    3px 3px 0 rgb(22, 160, 133),
+    4px 4px 0 rgb(22, 160, 133),
+    5px 5px 0 rgb(22, 160, 133),
+    6px 6px 0 rgb(22, 160, 133),
+    7px 7px 0 rgb(22, 160, 133);
+  box-shadow:
+    1px 1px 0 rgb(22, 160, 133),
+    2px 2px 0 rgb(22, 160, 133),
+    3px 3px 0 rgb(22, 160, 133),
+    4px 4px 0 rgb(22, 160, 133),
+    5px 5px 0 rgb(22, 160, 133),
+    6px 6px 0 rgb(22, 160, 133),
+    7px 7px 0 rgb(22, 160, 133);
+  font-size: 2em;
+  height: 50px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+input[class="form-control"]:focus {
+  border:0.1555em solid rgb(26, 188, 156);
+  -webkit-box-shadow:
+    1px 1px 0 rgb(51, 166, 205),
+    2px 2px 0 rgb(22, 160, 156),
+    3px 3px 0 rgb(22, 160, 133),
+    4px 4px 0 rgb(22, 160, 133),
+    5px 5px 0 rgb(22, 160, 133),
+    6px 6px 0 rgb(22, 160, 133),
+    7px 7px 0 rgb(22, 160, 133);
+  -moz-box-shadow:
+    1px 1px 0 rgb(51, 166, 205),
+    2px 2px 0 rgb(22, 160, 156),
+    3px 3px 0 rgb(22, 160, 133),
+    4px 4px 0 rgb(22, 160, 133),
+    5px 5px 0 rgb(22, 160, 133),
+    6px 6px 0 rgb(22, 160, 133),
+    7px 7px 0 rgb(22, 160, 133);
+  box-shadow:
+   1px 1px 0 rgb(51, 166, 205),
+   2px 2px 0 rgb(22, 160, 156),
+   3px 3px 0 rgb(22, 160, 133),
+   4px 4px 0 rgb(22, 160, 133),
+   5px 5px 0 rgb(22, 160, 133),
+   6px 6px 0 rgb(22, 160, 133),
+   7px 7px 0 rgb(22, 160, 133);
 }
 
 /**** BUTTONS ****/
@@ -35,7 +98,7 @@ p {
 }
 
 .btn:nth-of-type(2) {
-  background: #7BC8A4;
+  background: #1abc9c;
 }
 
 .btn:nth-of-type(2):hover {
@@ -45,6 +108,7 @@ p {
 .btn, .btn:hover {
   border-style: none;
 }
+
 /*********************/
 
 
