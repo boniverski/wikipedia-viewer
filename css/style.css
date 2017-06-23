@@ -15,6 +15,14 @@ body {
   z-index: 1;
 }
 
+a h1 {
+  color: #FDFDFD;
+}
+
+a h1:active {
+  color: #ccc;
+}
+
 h1 {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -160,6 +168,10 @@ ol li p {
   max-width: 200px;
   text-align: center;
   align-items: center;
+}
+
+.no-result p {
+  margin: 0;
 }
 /*********************/
 
