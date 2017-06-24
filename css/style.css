@@ -177,13 +177,21 @@ ol li p {
 
 @media (max-width: 575px) {
   .search-box {
-    margin-top: 5em;
+    margin-top: 6em;
+  }
+
+  ol li p {
+    font-size: 1.1em;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .search-box {
-    margin-top: 5em;
+    margin-top: 6em;
+  }
+
+  ol li p {
+    font-size: 1.1em;
   }
 }
 

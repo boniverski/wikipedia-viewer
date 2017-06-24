@@ -30,13 +30,17 @@ $(document).ready(function () {
 
       //Returns No result
       if (data[1].length === 0 && data[2].length === 0 && data[3].length === 0) {
-        $(".search-result").append("<li class='no-result'><p>Oops, no result!</p></li>");
+        $(".search-result").append("<li class='no-result'><p>Oops, no results!</p></li>");
       }
     })
 
     //Push heading up after clicing Search
     $(".title").animate({"margin-top":"20px","margin-bottom":"20px"});
-
+    //On smaller devices
+    var mq = window.matchMedia("(min-width: 575px)");
+    if (mq) {
+      $(".search-box").animate({"margin-top":"1em","margin-bottom":"1em"});
+    }
   });
 
   //Using Enter key for searching
